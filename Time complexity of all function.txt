@@ -1,0 +1,18 @@
+O(1) functions
+  high(x) 
+  low(x)
+  index(x,y)
+  VEB_Tree_Minimum()
+  VEB_Tree_Maximum()
+  VEB_Tree_Empty_Insert()
+  
+O(log(log(u)) functions T(u) = T(u^(1/2)) + O(1)
+  
+  VEB_Tree_Member(x) - only one recurrence with size root(u)
+  VEB_Tree_Insert(x) - cluster is empty the update summary table one recursive call then update cluster maximum and minimum constant operation
+  VEB_Tree_Succesor(x) - using Max if value in his own cluster if not look in the summary
+  VEB_Tree_Predecesoor(x) same as above but using Min
+  VEB_Tree_Delete(x)  - When we update summary at that time delete recursive is contant time just delete min max
+  
+  
+  
